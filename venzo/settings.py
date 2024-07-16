@@ -82,16 +82,28 @@ WSGI_APPLICATION = 'venzo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'details',
+#         'USER': 'postgres',
+#         'PASSWORD': '1234',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'details',
-        'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',
+        'NAME': 'django_db_qifl',
+        'USER': 'django_db_qifl_user',
+        'PASSWORD': 'N5PlhaPbv68ZJNa7wXQYQcoebwc3Nhe6',
+        'HOST': 'dpg-cqafsrjv2p9s73d0kj3g-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
